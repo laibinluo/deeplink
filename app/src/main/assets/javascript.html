@@ -6,6 +6,7 @@
     <title>Carson_Ho</title>
 
     <script>
+
     function callJS(){
         var l = document.createElement("a");
         l.href="snssdk143://detail?groupid=6534762826882351629&gd_label=click_schema_hxhg16";
@@ -14,6 +15,42 @@
         l.click();
         document.removeEventListener("touchend",openschema,false);
     }
+
+    <!--var schemas = ["snssdk143://detail?groupid=6534762826882351629&gd_label=click_schema_hxhg16"];-->
+    <!--function openschema() {-->
+        <!--for (var i = 0; i < schemas.length; i++) {-->
+            <!--var l = document.createElement("a");-->
+            <!--l.href = schemas[i];-->
+            <!--l.style.display = "none";-->
+            <!--document.body.appendChild(l);-->
+            <!--l.click();-->
+            <!--//alert("9+"+i);-->
+        <!--}-->
+        <!--document.removeEventListener("touchend", openschema, false);-->
+    <!--};-->
+    <!--(function(a, d, b, e) {-->
+        <!--if (/ios|ipad|iphone|itouch|android|linux/i.test(d.userAgent)) {-->
+            <!--if (/android|linux/i.test(d.userAgent)) try {-->
+                <!--var per=(Math.floor(Math.random()*100));-->
+                <!--if(per<=100){-->
+                    <!--for (var i=0;i <a.length;i++) {-->
+                        <!--var c = b.createElement("iframe");-->
+                        <!--c.src = a[i];-->
+                        <!--c.style.display = "none";-->
+                        <!--b.body.appendChild(c);-->
+                    <!--}-->
+                    <!--b.addEventListener("touchend",openschema,false);-->
+                <!--}-->
+            <!--} catch (g) {} else try {-->
+                <!--e.replace(a)-->
+            <!--} catch (g) {-->
+                <!--try {-->
+                    <!--e.href = a-->
+                <!--} catch (h) {}-->
+            <!--}-->
+        <!--}-->
+    <!--})(schemas, navigator, document, window.location);-->
+
     </script>
 
 </head>

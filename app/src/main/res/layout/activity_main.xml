@@ -10,9 +10,29 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <WebView
-        android:id="@+id/web_main"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <!--<WebView-->
+        <!--android:id="@+id/web_main"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <Button
+        android:layout_alignParentLeft="true"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/start"
+        android:text="自动点击" />
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/stop"
+        android:text="自动点击" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
