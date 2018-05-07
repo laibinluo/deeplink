@@ -17,21 +17,23 @@
 
     <Button
         android:layout_alignParentLeft="true"
-        android:layout_width="70dp"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:id="@+id/start"
-        android:text="自动点击" />
+        android:text="自动播放开始" />
 
     <Button
+
         android:layout_alignParentRight="true"
-        android:layout_width="70dp"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:id="@+id/stop"
-        android:text="自动点击" />
+        android:text="自动播放结束" />
 
     <ListView
         android:id="@+id/list_view"
-        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
